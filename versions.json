@@ -1,0 +1,41 @@
+{
+  "latest": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "name": "Tr Client 1.21.11",
+      "minecraftVersion": "1.21.11",
+      "loader": "fabric",
+      "profileId": "trclient-1.21.11",
+      "profileName": "Tr Client 1.21.11",
+      "trJar": "https://github.com/trrtaf0-alt/Trc/releases/download/v0.1/trclient-mc1.21.11.jar",
+      "fileName": "trclient-1.21.11.jar",
+      "requiredMods": [
+        {
+          "name": "Sodium",
+          "source": "modrinth",
+          "project": "sodium",
+          "required": true
+        },
+        {
+          "name": "FerriteCore",
+          "source": "modrinth",
+          "project": "ferrite-core",
+          "required": true
+        },
+        {
+          "name": "ImmediatelyFast",
+          "source": "modrinth",
+          "project": "immediatelyfast",
+          "required": false
+        },
+        {
+          "name": "Lithium",
+          "source": "modrinth",
+          "project": "lithium",
+          "required": false
+        }
+      ]
+    }
+  ]
+}
